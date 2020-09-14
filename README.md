@@ -1,4 +1,4 @@
-$ this is a modified version of Hairu's freelss software. Pins are set to match original diagram on freelss.org
+**this is a modified version of Hairu's freelss software. Pins are set to match original diagram on freelss.org
 
 # FreeLSS
 
