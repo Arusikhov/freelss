@@ -1,3 +1,5 @@
+$ this is a modified version of Hairu's freelss software. Pins are set to match original diagram on freelss.org
+
 # FreeLSS
 
 FreeLSS is a laser scanning program for the Raspberry Pi. It allows a Raspberry Pi to function as the core to a complete turn table laser scanning system.
@@ -21,7 +23,7 @@ $ sudo apt-get install libpng-dev libjpeg-dev git-core gcc build-essential unzip
 
 Download and build FreeLSS
 ```
-$ git clone https://github.com/hairu/freelss
+$ git clone https://github.com/Arusikhov/freelss
 $ cd freelss
 $ make
 ```
