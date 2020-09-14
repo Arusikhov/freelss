@@ -50,11 +50,15 @@ Setup::Setup() :
 
 void Setup::reinit()
 {
-	rightLaserPin = 5;
+//	rightLaserPin = 5;
+	rightLaserPin = 0;//Suren
 	leftLaserPin = 4;
-	motorEnablePin = 0;
-	motorStepPin = 7;
-	motorDirPin = 1;
+//	motorEnablePin = 0;
+	motorEnablePin = 1;//Suren
+//	motorStepPin = 7;
+	motorStepPin = 2;//Suren
+//	motorDirPin = 1;
+	motorDirPin = 3;//Suren
 	motorDirPinValue = 0;
 	laserOnValue = 1;
 	stepsPerRevolution = 3200;
@@ -63,7 +67,8 @@ void Setup::reinit()
 	unitOfLength = UL_INCHES;
 	haveLaserPlaneNormals = false;
 	enableLighting = false;
-	lightingPin = 3;
+//	lightingPin = 3;
+	lightingPin = 7;//Suren
 	enableAuthentication = false;
 	passwordHash = "";
 	enableUsbNetworkConfig = true;
